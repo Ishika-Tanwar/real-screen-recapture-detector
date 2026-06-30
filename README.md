@@ -1,3 +1,7 @@
+## 🔴 Live Demo
+👉 [Try it on Hugging Face](https://huggingface.co/spaces/IshikaTanwar/screen-recapture-detector)
+
+
 # Spot the Fake Photo — Screen Recapture Detector
 
 A lightweight binary classifier that detects whether an image is a **real photo** or a **photo of a screen** (recapture fraud).
