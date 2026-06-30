@@ -113,7 +113,7 @@ def predict(image: Image.Image):
 
 demo = gr.Interface(
     fn=predict,
-    inputs=gr.Image(type="pil", label="Upload an image"),
+    inputs=gr.Image(type="pil", label="Upload or use Camera", sources=["upload", "webcam"]),
     outputs=[
         gr.Textbox(label="Verdict"),
         gr.Textbox(label="Details"),
