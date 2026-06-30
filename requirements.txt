@@ -1,0 +1,7 @@
+onnxruntime>=1.16.0
+numpy>=1.24.0
+Pillow>=9.0.0
+
+# Only needed for training and exporting the model, not for predict.py at runtime:
+torch>=2.0.0
+torchvision>=0.15.0
